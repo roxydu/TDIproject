@@ -125,3 +125,6 @@ plot2 <-
   geom_smooth(method = "lm", level=0.95) +
   guides(color=guide_legend("# of Deaths")) 
 
+lm2 <- lm(l.guncontrolsearch ~ mediaattention + nweek + mediaattention*nweek, data=finaldata)
+summary(lm2)
+# media's effects on public interets wan over time!
