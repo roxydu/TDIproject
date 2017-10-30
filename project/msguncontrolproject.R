@@ -120,7 +120,7 @@ plot2 <-
   ggplot(data = finaldata, aes(x = mediaattention, y = l.guncontrolsearch)) + 
   theme(plot.title = element_text(hjust = 0.5, size=21,face="bold")) + 
   theme(axis.title=element_text(size=13)) +
-  labs(title="Does the Public Follow the Media?",x="Media Attention (Scaled to 1-100)",y="Google Search (Scaled 1-100), Lagged") +
+  labs(title="Does the Public Follow the Media?",x="Media Attention to Gun Control (Scaled to 1-100)",y="Google Search on Gun Control (Scaled 1-100), Lagged") +
   geom_point(aes(color = nkilled)) +
   geom_smooth(method = "lm", level=0.95) +
   guides(color=guide_legend("# of Deaths")) 
