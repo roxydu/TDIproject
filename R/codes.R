@@ -1,11 +1,11 @@
 
 # 1 mass shooting data
 # http://www.shootingtracker.com/
-ms13 <- read.csv("ms2013.csv", header = T)
-ms14 <- read.csv("ms2014.csv", header = T)
-ms15 <- read.csv("ms2015.csv", header = T)
-ms16 <- read.csv("ms2016.csv", header = T)
-ms17 <- read.csv("ms2017.csv", header = T)
+ms13 <- read.csv("./data/ms2013.csv", header = T)
+ms14 <- read.csv("./data/ms2014.csv", header = T)
+ms15 <- read.csv("./data/ms2015.csv", header = T)
+ms16 <- read.csv("./data/ms2016.csv", header = T)
+ms17 <- read.csv("./data/ms2017.csv", header = T)
 
 mstracking <- rbind(ms13, ms14, ms15, ms16, ms17)
 
