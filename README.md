@@ -1,11 +1,9 @@
 ## Mass Shooting and Gun Control
 Since the most recent Las Vegas shooting, the issue of gun control is once again thrust into the spotlight of American political debate and public discourse. Have we succumbed to compassion fatigue? Is the media paying continuous attention to gun control? Does the public follow the media? In this project, I combine three datasets to explore the relationship between mass shooting, media attention, and public interest in gun control.
 
-### Some Insights
-
 ![](https://raw.githubusercontent.com/roxydu/gun/master/R/plots/Rplot1.png)
 
-In this graph, I plotted three trends from January 2013 to October 2017 on top of each other - number of deaths from mass shooting in the U.S., U.S. media attention to gun control, and public interest in gun control. 
+I plotted three trends from January 2013 to October 2017 on top of each other - number of deaths from mass shooting in the U.S., U.S. media attention to gun control, and public interest in gun control. 
 
 I joined and recoded three datasets, respectively on [mass shooting](http://www.shootingtracker.com/), [media coverage of gun control issues](https://mediacloud.org/), and [google search trend on gun control issues](https://trends.google.com/trends/). Media attention is measured by number of sentences in American media coverage that contain "gun control," rescaled to values between 0 and 100. Public interest is measured by google search on "gun control" in America, also scaled to values between 0 and 100. All the data are aggregated at the weekly level.
 
